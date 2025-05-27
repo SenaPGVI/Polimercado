@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:wght@200;300;400;600;700& display-swap');
+
+
+:root{
+
+    --green: #27ae60;
+    
+    --black: #2c2c54;
+    
+    }
+*{
+    font-family: 'Nunito', sans-serif;
+
+margin:0; padding:0;
+
+box-sizing: border-box;
+
+outline: NONE; BORDER:NONE;
+
+text-decoration: none; 
+text-transform: capitalize; 
+transition: all .2s linear;
+
+
+
+}
+
+*::selection{
+    background:var(-green);
+    COLOR:#FFF;
+
+}
+HTML{
+    FONT-SIZE:63%;
+    OVERFLOW-X:hidden;
+    scroll-behavior: smooth;
+}
+
+.heading{
+
+    text-align: center;
+    
+    color:var(--black);
+    
+    text-transform: uppercase;
+    padding: 1rem;
+    font-size: 3.5rem;
+    
+}
+.heading span{
+
+    color:var(--green);
+    
+    text-transform: uppercase;
+
+}
+.header-1 {
+    background-image: url("https://i.ibb.co/7vSHG2C/zyro-image-1.png");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+  }
+
+  .logo{
+   
+
+font-weight: bolder;
+font-size: 100rem;
+position: absolute;
+right: 100px;
+top: 400px;
+font-size: 20px;
+
+
+  }
+
+  .logo i{
+   padding-right: .10rem;
+   color: #27ae60;
+    
+      }
+  
+
+      .header-2 {
+        height: 50px;
+        background-position: center;
+        background-size: cover;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem 9%;
+        
+      }
+
+
+      .header-2 .navbar a{
+
+        padding: .5rem 1.5rem;
+        font-size: 3rem;
+        border-radius: .5rem;
+        color: #FFF;
+        position: absolute;
+        left: 0px;
+        top: 500px;
+
+        
+      }
+      .header-3 .navbar a{
+
+        padding: .5rem 1.5rem;
+        font-size: 3rem;
+        border-radius: .5rem;
+        color: #FFF;
+        position: absolute;
+        left: 0px;
+        top: 500px;
+
+        
+      }
+      
+        
+      #lista1 {
+        font-family:Arial;
+        font-weight:bold;
+        font-size:13px;
+    }
+    .separador {
+        color:gray;
+    }
+    #lista1 li {
+         display:inline;
+         padding-left:50px;
+         padding-right:8px;
+        background-color:rgb(252, 252, 252);
+    }
+    a {
+        color:rgb(12, 12, 12);
+        text-decoration:none;
+    }
+    a:hover {
+        color:black;
+        background-color:lightgray;
+    }
+      #menu-bar{font-size: 2rem;
+        border-radius: .5rem; 
+        border:.1rem solid var(--black);
+        padding:.8rem 1.5rem;
+        
+        color:var(--black);
+        
+        cursor: pointer;}
+
+
+        .header-2 .navbarb b{
+
+            padding: .5rem 1.5rem;
+            font-size: 3rem;
+            border-radius: .5rem;
+            color: #FFF;
+            position: absolute;
+            left: 300px;
+            top: 500px;
+    
+            
+          }
+
+          .header-2 .navbar c{
+
+            padding: .5rem 1.5rem;
+            font-size: 3rem;
+            border-radius: .5rem;
+            color: #FFF;
+            position: absolute;
+            left: 550px;
+            top: 500px;
+    
+            
+          }
+
+          .header-2 .navbar d{
+
+            padding: .5rem 1.5rem;
+            font-size: 3rem;
+            border-radius: .5rem;
+            color: #FFF;
+            position: absolute;
+            left: 780px;
+            top: 500px;
+    
+            
+          }
+
+          .header-2 .navbar e{
+
+            padding: .5rem 1.5rem;
+            font-size: 3rem;
+            border-radius: .5rem;
+            color: #FFF;
+            position: absolute;
+            left: 1100px;
+            top: 500px;
+    
+            
+          }
+
+          .header-2 .navbar e{
+
+            padding: .5rem 1.5rem;
+            font-size: 3rem;
+            border-radius: .5rem;
+            color: #FFF;
+            position: absolute;
+            left: 1080px;
+            top: 500px;
+    
+            
+          }
+          .header-2 .navbar f{
+
+            padding: .5rem 1.5rem;
+            font-size: 3rem;
+            border-radius: .5rem;
+            color: #FFF;
+            position: absolute;
+            left: 1460px;
+            top: 500px;
+    
+            
+          }
+
+          .header-2 .navbar g{
+
+            padding: .5rem 1.5rem;
+            font-size: 3rem;
+            border-radius: .5rem;
+            color: #FFF;
+            position: absolute;
+            left: 1680px;
+            top: 500px;
+    
+            
+          }
+
+
+          .icons
+          {
+
+            padding: .5rem 1.5rem;
+            font-size: 3rem;
+            border-radius: .5rem;
+            color: #FFF;
+            position: absolute;
+            left: 50px;
+            top: 550px;
+    
+            
+          }
+
+.category .box-container{
+
+display: flex;
+gap: 1.5rem;
+flex-wrap: wrap;
+
+}
+
+.category .box-container .box{
+
+    border: .1rem solid   rgba(0,0,0,.3);
+    border-radius: .5rem;
+    text-align: center;
+    padding: 2rem;
+    flex: 1 1 25rem;
+
+  
+    
+    }
+    .category .box-container .box{
+
+        border: .1rem solid   rgba(0,0,0,.3);
+        border-radius: .5rem;
+        text-align: center;
+        padding: 2rem;
+        flex: 1 1 25rem;
+    
+      
+        
+        }
+
+        .category .box-container2{
+
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            
+            }
+            
+            .category .box-container2 .box2{
+            
+                border: .1rem solid   rgba(0,0,0,.3);
+                border-radius: .5rem;
+                text-align: center;
+                padding: 2rem;
+                flex: 1 1 25rem;
+            
+              
+                
+                }
+                .category .box-container2 .box2{
+            
+                    border: .1rem solid   rgba(0,0,0,.3);
+                    border-radius: .5rem;
+                    text-align: center;
+                    padding: 2rem;
+                    flex: 1 1 25rem;
+                
+                  
+                    
+                    }
+                    /*------Barra de menu---------*/
+    #navega{
+    width: 100%;
+
+    background-color: #820218; 
+
+    }
+    #navega ul{
+    list-style-type: none;
+
+    }
+
+    .menu>li{
+      position: relative;
+      display: inline-block;
+    }
+
+    .menu >li a{
+
+      display: block;
+      padding: 10px 10px;
+      color: white;
+      font-family: 'Nunito', sans-serif;
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Nunito', sans-serif; 
+      font-size: 20px;
+      text-decoration: none;
+    }f
+
+    .menu li a:hover{
+      background-color: #C7BCCA;
+      border:2px solid #DCDBDB;
+      color: #DCDBDB;
+      transition: all .1s;
+    }
+
+    .submenu{
+
+      position: absolute;
+      background: #333333;
+      width: 380px;
+      display: none;
+    }
+
+    .submenu li a{
+
+      display: block;
+      padding: 15px;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .menu li:hover .submenu{
+      display: block;
+    }
+
+
+
+    /*-----Banner-------*/
+.banner {
+  background-attachment: fixed;
+  background-color: #645862;
+  background-image: url(image.gif);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  cursor: default;
+  text-align: center;
+  width: 100%;
+  float: left;
+}
+.bg-overlay {
+  padding: 280px 0 220px;
+  background-color: RGBA(15, 5, 20, 0.84);
+}
+.banner-text h2 {
+  font-size: 50px;
+   font-family: 'Akronim', cursive;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Kaushan Script', cursive; 
+}
+.banner-text h2 span {
+  color: #EB233C;
+   font-family: 'Akronim', cursive;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Kaushan Script', cursive; 
+}
+.banner-text p {
+  font-size: 15px;
+   font-family: 'Akronim', cursive;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Kaushan Script', cursive; 
+}
+.banner-button {
+  border: rgba(204, 204, 204, 0.18) 1px solid ;
+  padding: 12px 35px;
+  color: #ccc;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px 25px 25px 25px;
+  font-size: 15px;
+  margin-top: 50px;
+   font-family: 'Akronim', cursive;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Kaushan Script', cursive; 
+}
+.banner-button:hover {
+  background-color: #ccc;
+  text-decoration: none;
+  color: #000;
+}
+/*-----Banner -------*/
+
+footer{
+  grid-column: 1 / 6;
+}

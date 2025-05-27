@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:wght@200;300;400;600;700& display-swap');
+:root{
+
+    --green: #27ae60;
+    
+    --black: #2c2c54;
+    
+    }
+*{
+    font-family: 'Nunito', sans-serif;
+
+
+
+margin:0; padding:0;
+
+box-sizing: border-box;
+outline: NONE; 
+BORDER:NONE;
+text-decoration: none; 
+text-transform: capitalize; 
+transition: all .2s linear;
+
+}
+
+HTML{
+    FONT-SIZE:63%;
+    OVERFLOW-X:hidden;
+    scroll-behavior: smooth;
+}
+
+.header{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header .logo img {
+
+    height: 10rem;
+}
+
+
+
+body{
+    background-image: url("/imagenes/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}   
+
+.header h1{
+
+    font-style: italic;
+
+
+}
+
+
+
+.header .navbar a{
+
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: black;
+}
+
+.header .navbar a:hover{
+
+    color: var(--main-color);
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom: .5rem;
+}
+
+.header .icons div {
+
+    color: black;
+    cursor: pointer;
+    font-size: 3rem;
+    margin-left: 2rem;
+}
+
+.header .icons div:hover {
+
+    color: var(--main-color);
+}
+
+#main-container{
+
+    margin: 250px auto;
+    width: 800px;
+}
+
+table{
+    font-size: 1.5rem;
+    background-color: white;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th, td{
+                                                    
+
+    border: solid 1px black;
+    padding: 20px;
+}
+
+thead{
+    background-color: cornflowerblue;
+    
+}
+
+tr:nth-child(even){
+
+    background-color: #ddd;
+}
+
+tr:hover td{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+
+/*------Header(titulo, logo)-----*/
+ #header{
+        background-color: #F9F8FC;
+
+      }
+
+ #logo{
+  margin: auto;
+  height: 50px;
+  width: 50px;
+  float: left;
+  width: 100px; height: 100px;
+}
+ 
+ #titulo h1{
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif; 
+  font-size: 80px;
+  text-align: center;
+}
+
+
+
+
+
+
+ /*------Barra de menu---------*/
+    #navega{
+    width: 100%;
+    margin: 0px;
+    background-color: #820218; 
+
+    }
+    #navega ul{
+    list-style-type: none;
+
+    }
+
+    .menu>li{
+      position: relative;
+      display: inline-block;
+    }
+
+    .menu >li a{
+
+      display: block;
+      padding: 15px 20px;
+      color: white;
+      font-family: 'Nunito', sans-serif;
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Nunito', sans-serif; 
+      font-size: 20px;
+      text-decoration: none;
+    }f
+
+    .menu li a:hover{
+      background-color: #C7BCCA;
+      border:2px solid #DCDBDB;
+      color: #DCDBDB;
+      transition: all .1s;
+    }
+
+    .submenu{
+
+      position: absolute;
+      background: #333333;
+      width: 380px;
+      display: none;
+    }
+
+    .submenu li a{
+
+      display: block;
+      padding: 15px;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .menu li:hover .submenu{
+      display: block;
+    }
+
+
+
+    /*-----Banner-------*/
+.banner {
+  background-attachment: fixed;
+  background-color: #645862;
+  background-image: url(image.gif);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  cursor: default;
+  text-align: center;
+  width: 100%;
+  float: left;
+}
+.bg-overlay {
+  padding: 280px 0 220px;
+  background-color: RGBA(15, 5, 20, 0.84);
+}
+.banner-text h2 {
+  font-size: 50px;
+   font-family: 'Akronim', cursive;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Kaushan Script', cursive; 
+}
+.banner-text h2 span {
+  color: #EB233C;
+   font-family: 'Akronim', cursive;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Kaushan Script', cursive; 
+}
+.banner-text p {
+  font-size: 15px;
+   font-family: 'Akronim', cursive;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Kaushan Script', cursive; 
+}
+.banner-button {
+  border: rgba(204, 204, 204, 0.18) 1px solid ;
+  padding: 12px 35px;
+  color: #ccc;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px 25px 25px 25px;
+  font-size: 15px;
+  margin-top: 50px;
+   font-family: 'Akronim', cursive;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Kaushan Script', cursive; 
+}
+.banner-button:hover {
+  background-color: #ccc;
+  text-decoration: none;
+  color: #000;
+}
+/*-----Banner -------*/

@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: comic, sans-serif;
+    background-color: #f0f0f0;
+    
+  }
+  
+  
+  h1 {
+    text-align: center;
+    margin-top: -50px;
+    font-weight: bold;
+    color: white;
+
+
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    padding: 20px;
+			border-radius: 10px;
+			margin-top: 50px;
+
+  }
+  
+  input {
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-shadow: 0px 0px 5px 1px #000000;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    
+
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-shadow: 0px 0px 5px 1px #000000;
+    cursor: pointer;
+    font-weight: bold;
+
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  body {
+    background-image: url('/AAAPolimercado_Entregafinal/Imagenes/imagenjuan.jpg');
+    background-size: cover;
+    background-position: center;
+
+  }
