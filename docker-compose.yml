@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    container_name: polimercado_web
+    ports:
+      - "8080:80"
+    networks:
+      - polinet
+    depends_on:
+      - db
+
+  db:
+    image: mysql:5.7
+    container_name: polimercado_db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: polimercado
+    ports:
+      - "3306:3306"
+    networks:
+      - polinet
+
+networks:
+  polinet:
+    driver: bridge
+
